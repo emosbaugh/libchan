@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/dmcgowan/msgpack"
-	"github.com/docker/libchan"
+	"github.com/replicatedcom/libchan"
 )
 
 const (

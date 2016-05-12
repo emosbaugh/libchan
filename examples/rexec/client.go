@@ -7,8 +7,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/docker/libchan"
-	"github.com/docker/libchan/spdy"
+	"github.com/replicatedcom/libchan"
+	"github.com/replicatedcom/libchan/spdy"
 )
 
 // RemoteCommand is the run parameters to be executed remotely

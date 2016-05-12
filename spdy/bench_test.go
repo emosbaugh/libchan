@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/libchan"
+	"github.com/replicatedcom/libchan"
 )
 
 var (
