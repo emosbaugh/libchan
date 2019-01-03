@@ -74,6 +74,8 @@ func NewTransport(provider StreamProvider) libchan.Transport {
 }
 
 func (s *Transport) handleStreams() {
+	defer close(s.receiverChan)
+
 	listener := s.provider.Listen()
 	for {
 		strm, err := listener.Accept()
